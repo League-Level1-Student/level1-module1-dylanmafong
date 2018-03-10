@@ -14,7 +14,7 @@ public class Cat {
 	}
 
 	void meow() {
-		System.out.println("meeeeeooooooooooowwwwwwwww!!");
+		System.out.println("moooooooooooooooooooooooooooo!!");
 	}
 
 	public void printName() {
@@ -36,13 +36,16 @@ public class Cat {
 
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
-
+				Cat A = new Cat("LOL");
 		// 1. Make the Cat meow
-		
+		A.meow();
 		// 2. Get the Cat to print it's name
-
+			A.printName();
 		// 3. Kill the Cat!
-
+			for (int i = 0; i < 9; i++) {
+				A.kill();
+			}
+			
 	}
 }
 

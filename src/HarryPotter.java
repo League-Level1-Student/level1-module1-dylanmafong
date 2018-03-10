@@ -30,11 +30,16 @@ System.out.println("casting spell: " + spell);
 	}
 
 	public static void main(String[] args) {
+		HarryPotter A = new HarryPotter();
 		// 1. make harry potter
 		// 2. become invisible
+		A.makeInvisible(true);
 		// 3. spy on professor snape
+		A.spyOnSnape();
 		// 4. become visible again
+		A.makeInvisible(false);
 		// 5. cast a “stupefy” spell
+		A.castSpell("alakazam");
 	}
 
 }
