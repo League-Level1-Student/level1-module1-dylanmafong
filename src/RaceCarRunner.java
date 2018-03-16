@@ -17,7 +17,14 @@ System.out.println(a.getPositionInRace());
 				}
 				
 		// 6. Help the car move into first place.
-		a.getPositionInRace();
+		a.overtake();
+		a.overtake();
+		a.overtake();
+		a.overtake();
+		a.overtake();
+		a.overtake();
+		a.overtake();
+		a.overtake();
 	}
 
 }
